@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+@font-face{
+    font-family: NorseBold;
+    src:url(/Norse-Bold.otf);
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1.0fr 3fr;
+
+}
+
+.side_image{
+    grid-row: 1/4;
+}
+
+.text{
+padding: 40px;
+background-color: rgb(226, 247, 250);
+
+}
+.sign_up_form{
+    border: 1px solid black;
+    padding: 40px;
+    box-shadow: 0px 15px 10px -15px #111; 
+}
+
+.form_class label{
+padding-left: 30px;
+}
+
+/* .form_class input{
+    padding-left: 40px;
+    margin-bottom: 20px;
+} */
+
+.create_account{
+    background-color: rgb(226, 247, 250);
+    padding: 40px;
+}
+
+.create_account p{
+    
+    padding-top: 20px;
+}
+
+button{
+    background-color:#596D48;
+    color: white;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 5px;
+}
